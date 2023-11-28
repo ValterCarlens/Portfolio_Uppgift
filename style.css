@@ -1,20 +1,22 @@
 body {
     margin:0;
+    background-color:lightyellow;
+    margin-inline:auto;
 }
 /* The navigation menu */
-.navbar {
+header{
     overflow: hidden;
-    background-color: rgb(210, 222, 135)182, 130);
+    background-color:wheat;
   }
   
   /* Navigation links */
-  .navbar a {
+  header a {
     float: left;
     font-size: 16px;
-    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    width:auto;
   }
   
   /* The subnavigation menu */
@@ -68,3 +70,46 @@ body {
     display: block;
   }
 
+
+.grid_container{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  padding: 1rem;
+  column-gap:3rem;
+  row-gap:3rem;
+  color:white;
+}
+.grid-item{
+  display:grid;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding:1.5rem;
+  text-align:center;
+  justify-items: start;
+  background-color:lightsalmon;
+  scroll-margin-inline:0; 
+  box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.10);
+
+}
+
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+a{
+  color:white;
+  text-decoration:none;
+}
+
+main{
+  display:grid;
+  margin-inline:auto;
+  width:90%
+}
+
+h1{
+  margin-left:1rem;
+}
+
+p{
+  margin-left:1rem;
+}
