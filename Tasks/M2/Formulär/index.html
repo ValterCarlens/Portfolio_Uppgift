@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/forms.css">
+    <script src="../css/Javascript/hamburger.js" defer></script>
+    <script src="../Hem/script.js" defer></script>
+    <title>Formulär</title>
+</head>
+<body>
+    <header class="normal-header">
+        <div class="om-mig-top-header-left">
+            <img class="main-logo" src="../main_logo/m2logo.mörklila.svg" alt="logo">
+            <h1 class="about-me-h1">M2</h1>
+        </div>  
+        <nav>
+            <ul class="primary-navigation" id="primary-navigation">
+                <ul class="primary-navigation" id="primary-navigation">
+                    <li><a class="nav-link" href="../Om mig/Index.html">Om mig</a></li>
+                    <li><a class="nav-link" href="../Historia/index.html">Historia</a></li>
+                    <li><a class="nav-link" href="../Index.html">Grunderna</a></li>
+                    <li><a class="nav-link" href="../Hem/index.html">Hem</a></li>
+                    <li><a class="nav-link" href="../Formulär/index.html">Formulär</a></li>
+            </ul>
+            <button class="hamburger-button" id="hamburger-button" 
+            aria-label="hamburger-button" aria-expanded="false">
+                <svg fill="black" class="icon-hamburger" viewbox="0 0 100 100" 
+                width="32">
+                    <rect class="line top" width="90" height="5" x="10" y="20"
+                     rx="3"></rect>
+                    <rect class="line middle" width="90" height="5" x="10"
+                     y="45" rx="3"></rect>
+                    <rect class="line bottom" width="90" height="5" x="10"
+                    y="70" rx="3"></rect>
+                </svg>
+            </button> 
+        </nav>
+    </header>
+    <main class="form">
+        <form action="https://formsubmit.co/valter.carlens@elev.ga.ntig.se" method="post">
+            <label for="name">Namn</label><br>
+            <input class="text-input" type="name" name="name"><br><br>
+            <label for="business">Företag</label><br>
+            <input class="text-input" id="business" name="lname"><br><br>
+            <label for="email">E-mail</label><br>
+            <input class="text-input"type="email" name="E-Mail"><br><br>
+
+            <label for="textarea-label" for="message">Meddelande</label><br>
+            <textarea name="Message" id="message" placeholder="Meddelande"></textarea><br>
+
+            <button type="reset">Återställ formulär</button>
+            <button type="submit">Skicka nu</button>
+        </form>
+
+    </main>
+   
+    <footer class="about-me-footer">
+        <div class="footer-container">
+            <nav class="footer-navigation">
+                <h2 class="footer-title">Navigation</h2>
+                <ul class="about-me-footer-nav">
+                    <li><a class="footer-link-selected" href="../Om mig/Index.html">Om mig</a></li>
+                    <li><a class="footer-link" href="../Historia/index.html">Historia</a></li>
+                    <li><a class="nav-link" href="../Formulär/index.html">Formulär</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </footer>
+    
+</body>
+</html>

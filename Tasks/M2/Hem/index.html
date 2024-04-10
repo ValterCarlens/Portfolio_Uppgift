@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../css/Javascript/hamburger.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <title>Hem-M2</title>
+</head>
+<body>
+    <img class="Home-Background-image" src="/Pictures/bg-main.jpg" alt="Background-Image">
+    <header class="transparent-header">
+        <div class="om-mig-top-header-left">
+            <img class="main-logo" src="../main_logo/m2logo.mörklila.svg" alt="logo">
+            <h1 class="about-me-h1">M2</h1>
+        </div>  
+        <nav>
+            <ul class="primary-navigation" id="primary-navigation">
+                <li><a class="nav-link" href="../Om mig/Index.html">Om mig</a></li>
+                <li><a class="nav-link" href="../Historia/index.html">Historia</a></li>
+                <li><a class="nav-link" href="../Index.html">Grunderna</a></li>
+                <li><a class="nav-link" href="../Hem/index.html">Hem</a></li>
+                <li><a class="nav-link" href="../Formulär/index.html">Formulär</a></li>
+            </ul>
+
+
+            <button class="hamburger-button" id="hamburger-button" 
+            aria-label="hamburger-button" aria-expanded="false">
+                <svg fill="black" class="icon-hamburger" viewbox="0 0 100 100" 
+                width="32">
+                    <rect class="line top" width="90" height="5" x="10" y="20"
+                     rx="3"></rect>
+                    <rect class="line middle" width="90" height="5" x="10"
+                     y="45" rx="3"></rect>
+                    <rect class="line bottom" width="90" height="5" x="10"
+                    y="70" rx="3"></rect>
+                </svg>
+            </button> 
+        </nav>
+</header>
+    
+    <main class="hem-main">
+        <p class="main-hem-text">Lär dig Webbutveckling snabbt och enkelt </p>
+        <button onclick="home()"><strong>Utforska HTML</strong></button>
+    </main>
+</body>
+</html>
