@@ -292,11 +292,13 @@ a{
       transform: translateX(100%);
       transition: transform 250ms ease-in-out,
                   opacity 250ms ease-in-out;
+                  
   }
 
   .primary-navigation.open {
     transform: translateX(0);
     opacity: 1;
+    z-index:99;
  }
 }
 
@@ -392,7 +394,7 @@ section{
 .about-me-main{
   display:block;
   width:100%;
-  background-color:#262626;
+  background-color:#E3E2DF;
 }
 
 .about-me-footer{
