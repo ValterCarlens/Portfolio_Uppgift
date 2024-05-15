@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Min sida</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="../Portfolio_Uppgift/Tasks/M2/css/Javascript/hamburger.js" defer></script>
+  <script src="menu.js" defer></script>
+</head>
+<body>
+<header>
+    <div class="flex-layout">
+        <img class="main-logo" src="Tasks/M2/main_logo/m2logo.mörklila.svg" alt="logo">
+        <p class="logo-brand">portfolio2.0</p>
+    </div>
+    <nav>
+        <ul class="primary-navigation" id="primary-navigation">
+            <li><a class="nav-link" href="index.html">Hem</a></li>
+            <!-- dropdown meny skapas med dropdown-klass -->
+            <li class="dropdown">
+                <a class="nav-link" href="#">Portfolio</a>
+                <ul>
+                    <li><a class="nav-link" href="#">Visa Allt</a></li>
+                    <li><a class="nav-link" href="#">Projekt 1</a></li>
+                    <li><a class="nav-link" href="#">Större Projekt 2</a></li>
+                    <li><a class="nav-link" href="#">Största Projekt 3</a></li>
+                    <!--undermeny-->
+                    <li class="dropdown">
+                        <a class="nav-link" href="#">UppgifterMoment1</a>
+                        <ul>
+                            <li><a class="nav-link" href="Tasks/Uppgift1/index.html">Uppgift 1: Grunder i HTML/CSS</a></li>
+                            <li><a class="nav-link" href="Tasks/Uppgift2/index.html">Uppgift 2: DIV & IMG</a></li>
+                            <li><a class="nav-link" href="Tasks/Uppgift3/index.html">Uppgift 3: Flex & Grid</a></li>
+                            <li><a class="nav-link" href="Tasks/Uppgift4/index.html">Uppgift 4: Animering i CSS och Youtube-Video</a></li>
+                            <li><a class="nav-link" href="Tasks/Uppgift5/sticky2.html">Uppgift 5: Position</a></li>
+                            <li><a class="nav-link" href="Tasks/Uppgift6/index.html">Uppgift 6: Element Och Egenskaper &amp;</a></li>
+                        </ul>
+                    </li> 
+                    <li class="dropdown">
+                      <a class="nav-link" href="#">UppgifterMoment2</a>
+                      <ul>
+                        <li><a class="nav-link" href="Tasks/Uppgift2.1/index.html">"Hello World" i Javascript</a></li>
+                        <li><a class="nav-link" href="Tasks/Uppgift2.1/index.html">HTMLs Historia & dokumentobjektsmodellen</a></li>
+                        <li><a class="nav-link" href="Tasks/Uppgift2.1/index.html">Tillgänglighet för alla användare</a></li>
+                        <li><a class="nav-link" href="Tasks/M2/Formulär/index.html">Formulär</a></li>
+                        <li><a class="nav-link" href="Tasks/M2/Hem/index.html">Hem</a></li>
+                        <li><a class="nav-link" href="Tasks/M2/Om mig/Index.html">Om Mig</a></li>
+                        <li><a class="nav-link" href="Tasks/M2/Historia/index.html">Historia</a></li>
+                      </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a class="nav-link" href="help.html">Hjälp</a></li>
+            <li><a class="nav-link" href="about.html">Om</a></li>
+        </ul>
+        <button class="hamburger-button" id="hamburger-button" 
+        aria-label="hamburger-button" aria-expanded="false">
+            <svg fill="black" class="icon-hamburger" viewbox="0 0 100 100" 
+            width="32">
+                <rect class="line top" width="90" height="5" x="10" y="20"
+                 rx="3"></rect>
+                <rect class="line middle" width="90" height="5" x="10"
+                 y="45" rx="3"></rect>
+                <rect class="line bottom" width="90" height="5" x="10"
+                y="70" rx="3"></rect>
+            </svg>
+        </button> 
+    </nav>
+</header>
+<main>
+  <div class="grid_container">
+    <a href="Tasks/Uppgift1/index.html"><div class="grid-item">Uppgift 1: Grunder i HTML/CSS<img src="Pictures/Upg1.png" alt="Grunder"></div></a>
+    <a href="Tasks/Uppgift2/index.html"><div class="grid-item">Uppgift 2: Div & IMG<img src="Pictures/Upg2.1.png" alt="Div&Img"></div></a>
+    <a href="Tasks/Uppgift3/index.html"><div class="grid-item">Uppgift 3: Flex & Grid<img src="Pictures/Upg3.png" alt="Flex&Grid"></div></a>
+    <a href="Tasks/Uppgift4Animation/index.html"><div class="grid-item">Uppgift 4: Animering i CSS och Youtube-video<img src="Pictures/Upg4.animation.png" alt="Animering"></div></a>
+    <a href="Tasks/Uppgift5/index.html"><div class="grid-item">Uppgift 5: Position<img src="Pictures/Upg5.png" alt="Position"></div></a>
+    <a href="Tasks/Uppgift6/index.html"><div class="grid-item">Uppgift 6: Element och egenskaper<img src="Pictures/Upg6.png" alt="Element"></div></a>
+    <a href="Tasks/M2/Index.html"><div class="grid-item">M2<img src="Pictures/Skärmbild 2024-01-16 095546.png" alt="M2"></div></a>
+    <a href="Tasks/M2/Historia/index.html"><div class="grid-item">Uppgift 2.2: Historia<img src="Pictures/Historia2.2.png" alt="Historia2.2"></div></a>
+    <a href="Tasks/M2/Hem/index.html"><div class="grid-item">M2-Hem<img src="Pictures/Hem2.2.png" alt="hem"></div></a>
+    <a href="Tasks/M2/Om mig/Index.html"><div class="grid-item">M2-Om-Mig<img src="Pictures/Om-migM2.png" alt="om-mig"></div></a>
+    <a href="Tasks/M2/Formulär/index.html"><div class="grid-item">Uppgift 2.5: Formulär<img src="Pictures/Formulär-2.5.png" alt="Formulär"></div></a>
+  </div>
+</main>
+</body>
+</html>
